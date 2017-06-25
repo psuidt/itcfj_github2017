@@ -15,6 +15,7 @@ namespace ConsoleAppWebApiHost
         static void Main(string[] args)
         {
             /*
+             * cfj
             var config = new HttpSelfHostConfiguration("http://localhost:3333");
             config.Routes.MapHttpRoute("default", "api/{controller}/{id}", new { id = RouteParameter.Optional });
             var server = new HttpSelfHostServer(config);
