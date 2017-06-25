@@ -1,0 +1,63 @@
+﻿<Window x:Class="WpfApplication1.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window5" Height="300" Width="300">
+    <Grid>
+        <ListView Grid.Row="1"  Name="lsv" ItemsSource="{Binding}" Background="#FFCDF1FD" Width="340" HorizontalAlignment="Left">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <WrapPanel>
+                            <Label Content="驾驶员姓名："/>
+                            <TextBox Text="{Binding Path=Pilot}" Height="23" Width="100"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Content="识别车牌："/>
+                            <TextBlock Text="{Binding Path=CarNO1}"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Content="正确车牌："/>
+                            <TextBlock Text="{Binding Path=CarNO2}"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Content="违章日期："/>
+                            <TextBlock Text="{Binding Path=Date}"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Content="违章路段："/>
+                            <TextBlock Text="{Binding Path=Sections}"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Content="违章类型："/>
+                            <TextBlock Text="{Binding Path=Type}"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Content="违章等级："/>
+                            <TextBlock Text="{Binding Path=Level}"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Content="违章车型："/>
+                            <TextBlock Text="{Binding Path=Models}"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Content="车辆所属单位："/>
+                            <TextBlock Text="{Binding Path=Units}"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Content="所扣分数："/>
+                            <TextBlock Text="{Binding Path=Score}"/>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Content="有效状态："/>
+                            <TextBox Text="{Binding Path=Status}" Height="23" Width="100"/>
+                            <ComboBox  Height="23" Width="100" SelectedValue="{Binding Path=Status, Mode=OneWay}">
+                                <ComboBoxItem Content="有效"/>
+                                <ComboBoxItem Content="无效"/>
+                            </ComboBox>
+                        </WrapPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Window>

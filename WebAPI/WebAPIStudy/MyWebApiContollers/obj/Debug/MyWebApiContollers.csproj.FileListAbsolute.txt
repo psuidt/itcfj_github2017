@@ -1,0 +1,5 @@
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\bin\Debug\MyWebApiContollers.dll
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\bin\Debug\MyWebApiContollers.pdb
+D:\云端TFS\WebAPI\WebAPIStudy\MyWebApiContollers\obj\Debug\MyWebApiContollers.csprojResolveAssemblyReference.cache
+D:\云端TFS\WebAPI\WebAPIStudy\MyWebApiContollers\obj\Debug\MyWebApiContollers.dll
+D:\云端TFS\WebAPI\WebAPIStudy\MyWebApiContollers\obj\Debug\MyWebApiContollers.pdb

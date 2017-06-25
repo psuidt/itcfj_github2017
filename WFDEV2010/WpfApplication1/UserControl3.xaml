@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="WpfApplication1.UserControl3"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <DockPanel  LastChildFill="True" >
+            <Border  DockPanel.Dock="Bottom"  BorderBrush="Red" BorderThickness="0,2,0,0" >
+                <StackPanel  HorizontalAlignment="Right"  Orientation="Horizontal">
+                    <Button   Margin="10,10,2,10"  Padding="3">好</Button>
+                <Button  Margin="2,10,10,10"  Padding="3">不好</Button>
+            </StackPanel>
+            </Border>
+            <TextBlock DockPanel.Dock="Top"  Background="Azure" FontSize="20" FontStyle="Oblique" >  请你吃饭，好吗？</TextBlock>
+        </DockPanel>
+    </Grid>
+</UserControl>
