@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppWebApiHost", "Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWebApiContollers", "MyWebApiContollers\MyWebApiContollers.csproj", "{949E219C-1665-40DD-8F2E-1B5EE2ADFD62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWebApiModelController", "MyWebApiModelController\MyWebApiModelController.csproj", "{0041B851-773A-4409-AF09-AF44952F6DDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,26 +35,12 @@ Global
 		{949E219C-1665-40DD-8F2E-1B5EE2ADFD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{949E219C-1665-40DD-8F2E-1B5EE2ADFD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{949E219C-1665-40DD-8F2E-1B5EE2ADFD62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0041B851-773A-4409-AF09-AF44952F6DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0041B851-773A-4409-AF09-AF44952F6DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0041B851-773A-4409-AF09-AF44952F6DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0041B851-773A-4409-AF09-AF44952F6DDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://fgtfs.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = WebAPIStudy.测试\\WebAPIStudy.测试.csproj
-		SccProjectName1 = WebAPIStudy.测试
-		SccLocalPath1 = WebAPIStudy.测试
-		SccProjectUniqueName2 = WebAPIStudy\\WebAPIStudy.csproj
-		SccProjectName2 = WebAPIStudy
-		SccLocalPath2 = WebAPIStudy
-		SccProjectUniqueName3 = ConsoleAppWebApiHost\\ConsoleAppWebApiHost.csproj
-		SccProjectName3 = ConsoleAppWebApiHost
-		SccLocalPath3 = ConsoleAppWebApiHost
-		SccProjectUniqueName4 = MyWebApiContollers\\MyWebApiContollers.csproj
-		SccProjectName4 = MyWebApiContollers
-		SccLocalPath4 = MyWebApiContollers
 	EndGlobalSection
 EndGlobal
