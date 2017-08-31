@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="80ddb225-a332-4a70-9974-f0fa345b5439" name="UMLClassDiagram1" linkedPackageId="9366e178-bc4b-4b0e-9b14-d4d293318936" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="adcf2f3a-ad54-43be-95c4-41978a243a0d">
+      <elementDefinition Id="5bece2f3-00ca-40d5-88b3-f1f259cb1f58" />
+      <body>单病种编辑接口定义.每个From插件要继承这个接口</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="f74d3da1-e044-4aad-a1b5-99724de117f8">
+      <profileInstance Id="fb05f9cf-3e47-4d60-b416-379ebd875f6e" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="04804d00-f38b-47d8-827f-1292d5bb6af3">
+      <profileInstance Id="f9963789-3b7b-4134-821a-ccd5ba1d739f" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="85171c13-9474-4c85-b085-4e4bf250a73b" name="IDrgEdit" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9496939c-b4c8-4654-9de9-48fdf0a7745b" />
+        <ownedAttributes>
+          <property Id="06df7c11-d685-4a96-a2fd-cf6d65fe6d33" name="CurrPatinfo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b0bd060c-af9f-4d23-b577-e868a78a7c78" />
+          </property>
+        </ownedAttributes>
+        <ownedOperations>
+          <operation Id="257902bc-67b9-4b40-a046-86a377fe0e4b" name="LoadInterfaceData" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="72bc8e60-0154-4d99-8d3b-e44cf5b28923" />
+          </operation>
+          <operation Id="61bb8124-b45e-43cd-b00c-d405e3aeaa46" name="CheckData" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="eaa888ad-6538-494e-ba29-f581f6bff6bb" />
+          </operation>
+          <operation Id="17110fb4-1deb-4954-9070-98817a9f7719" name="SaveData" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5d9a1a3a-9770-44a0-a7e8-47a877414e11" />
+          </operation>
+          <operation Id="8e51af8c-69f6-4575-9c20-fb1a5ff89d37" name="DelData" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="746f0b08-d8fa-4224-837d-f43f93e9c1e1" />
+          </operation>
+          <operation Id="eb5d30e8-a107-414b-ae7e-66df088dea9c" name="CloseUI" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4fa4508e-dc67-431d-b829-04dfd45a52a9" />
+          </operation>
+          <operation Id="b5373dae-532b-40ca-9837-aaa9c42ecc9a" name="LoadData" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="634b8606-7d58-4a52-9a78-bcd697fa8847" />
+          </operation>
+          <operation Id="f96e0216-a720-4b03-a1f9-eb75e0dbafba" name="LocationInput" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c55f667c-03aa-4d2e-bcb8-a1455b414802" />
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="67cc3236-5691-4be8-af34-51925fc1b65c" name="IDrgPlus" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e9d46466-edd2-4cf9-bfa6-901e1545f28c" />
+        <ownedOperations>
+          <operation Id="cb658da4-77d9-49d1-91fe-a19f217ccba4" name="IDrgEdit Run" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3e2f33b1-4fa6-4557-9f8e-9af91cf6c8b7" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="420f4803-c0d8-4d08-8830-3b86ba64c2be" name="System.Windows.Forms.Control SelfPanel" direction="In" isUnique="false">
+                  <elementDefinition Id="d42f94e2-0821-4891-a744-813244487d41" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="77c03515-1891-44ff-b865-f4b4cf5046f7" name="程序集">
+        <ownedCommentsInternal>
+          <comment Id="cd05e3a3-283a-49e3-9e79-90dd15474db8">
+            <elementDefinition Id="4fa92019-607e-49f5-91fd-56e200b5bc84" />
+            <body>启动Form插件的类</body>
+          </comment>
+        </ownedCommentsInternal>
+        <elementDefinition Id="8c22059b-f0ce-4668-b862-d3359c4a82fd" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="307127ec-58d7-4cf4-bba1-aa657a471346" name="Form" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="6f7c12b1-a261-4a7d-92b3-e3a4f8089387" />
+              <suppliersInternal>
+                <interfaceRealization Id="00b3a158-01d7-4a7a-8f75-a86f5655abbb">
+                  <interfaceMoniker Id="85171c13-9474-4c85-b085-4e4bf250a73b" LastKnownName="IDrgEdit" />
+                  <elementDefinition Id="bfbcfd6e-b510-4d37-bd98-8d91b22e6a0d" />
+                </interfaceRealization>
+              </suppliersInternal>
+              <ownedOperationsInternal>
+                <operation Id="529f980c-22be-4589-a1a9-d05a7d3cb03a" name="LoadInterfaceData" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="24223033-db4d-43a5-b176-70e67fd37b81" />
+                </operation>
+                <operation Id="a72a370d-e097-47fb-be51-1c545506ba74" name="CheckData" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="d9653094-abdf-408d-b5af-a414e88959c6" />
+                </operation>
+                <operation Id="73218d5b-185e-446f-81ed-38b42a3f55ef" name="SaveData" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="015bb0e8-d7ed-418d-9026-ac3a0eb32b45" />
+                </operation>
+                <operation Id="b8d4adaa-700b-40b9-84ac-ec2ce57d7615" name="DelData" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="ffe6c31a-c112-46e9-8e82-935f9d736477" />
+                </operation>
+                <operation Id="15b941a3-e5de-428b-8b4c-922f857b97d5" name="CloseUI" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="3c4869b3-33ef-4a34-a318-b103906b9af6" />
+                </operation>
+                <operation Id="793d306c-c8f0-420a-8830-cbbdd9608009" name="LoadData" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="ac3d72d1-5930-4a38-85ca-3cafe5f27064" />
+                </operation>
+                <operation Id="4fa33c14-625d-4fed-90a6-be36ae23af26" name="LocationInput" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="bb67ce5c-f76f-43c5-ae0f-c62fc15862a6" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="0e8af6ca-1e6c-471b-b55a-65e1f0683406" name="StartUp" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="bfb66683-ff7d-45ab-bfe9-9d6879ee4d96" />
+              <suppliersInternal>
+                <interfaceRealization Id="5cb5f06c-8f7a-4838-bc24-14f157d2dc88">
+                  <interfaceMoniker Id="67cc3236-5691-4be8-af34-51925fc1b65c" LastKnownName="IDrgPlus" />
+                  <elementDefinition Id="f11554aa-6c11-413e-855d-4cb2f82759dc" />
+                </interfaceRealization>
+              </suppliersInternal>
+              <ownedOperationsInternal>
+                <operation Id="1616b1ae-a720-406c-8afa-b53597de7bbf" name="IDrgEdit Run" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="a4564e69-b310-4d8f-a56a-e5c1d79adf81" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="354dd012-ea03-481c-b91e-2f94c4af8101" name="System.Windows.Forms.Control SelfPanel" direction="In" isUnique="false">
+                        <elementDefinition Id="1354f30e-c4c4-4dd5-b1b3-10929414d449" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+  </packagedElements>
+  <package Id="9366e178-bc4b-4b0e-9b14-d4d293318936" name="ModelingProject1">
+    <elementDefinition Id="04a77575-7a66-4ce7-ba69-36e306473fca" />
+  </package>
+</logicalClassDesignerModel>

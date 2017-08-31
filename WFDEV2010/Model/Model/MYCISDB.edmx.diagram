@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="02be24e50942445aaf0922e38a1e2992" Name="Diagram1">
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_BASECODE" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_BRSMTZ" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_BRSMTZMX" Width="1.5" PointX="5.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_CRBDMK" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_CYFSK" Width="1.5" PointX="7.75" PointY="4.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_CYLXK" Width="1.5" PointX="7.75" PointY="7.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_DQDMK" Width="1.5" PointX="9.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_EJKSK" Width="1.5" PointX="9.75" PointY="4.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_GJDMK" Width="1.5" PointX="9.75" PointY="8.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_GWYPJBDMK" Width="1.5" PointX="5.75" PointY="10.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_HSKSK" Width="1.5" PointX="11.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_ICD10" Width="1.5" PointX="11.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_ICD9" Width="1.5" PointX="11.75" PointY="6.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_JXYFDYK" Width="1.5" PointX="7.75" PointY="11.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_KSBQDYK" Width="1.5" PointX="11.75" PointY="9.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_KSYFDYK" Width="1.5" PointX="9.75" PointY="12.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_KSYFDYMXK" Width="1.5" PointX="11.75" PointY="12.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_LCSFXMDYK" Width="1.5" PointX="13.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_LCSFXMK" Width="1.5" PointX="13.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_MESSAGEINFO" Width="1.5" PointX="13.75" PointY="8.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_MZBRXXK" Width="1.5" PointX="2.75" PointY="14.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_MZDMK" Width="1.5" PointX="4.75" PointY="14.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_MZKSDMK" Width="1.5" PointX="6.75" PointY="14.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_MZSFZXKSK" Width="1.5" PointX="15.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_MZTSSFXMK" Width="1.5" PointX="15.75" PointY="4.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_PCSJJLK" Width="1.5" PointX="15.75" PointY="8.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_PCSJWJLBK" Width="1.5" PointX="11.75" PointY="15.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_PZLXK" Width="1.5" PointX="15.75" PointY="13.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_QKDJK" Width="1.5" PointX="8.75" PointY="16.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_QXDMK" Width="1.5" PointX="17.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_SFDXMK" Width="1.5" PointX="17.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_SFXMLBK" Width="1.5" PointX="4.75" PointY="17.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_SFXXMK" Width="1.5" PointX="17.75" PointY="10.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_SIMPLEDICT" Width="1.5" PointX="13.75" PointY="17.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_SSBWK" Width="1.5" PointX="15.75" PointY="17.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_SSCBK" Width="1.5" PointX="17.75" PointY="16.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_SSDJDMK" Width="1.5" PointX="19.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_SSFJK" Width="1.5" PointX="19.75" PointY="4.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_SSKSDMK" Width="1.5" PointX="6.75" PointY="19.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_SSLB" Width="1.5" PointX="19.75" PointY="8.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_SSMZDYK" Width="1.5" PointX="8.75" PointY="19.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_SSMZK" Width="1.5" PointX="10.75" PointY="19.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_SSRYK" Width="1.5" PointX="19.75" PointY="11.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_SSTWK" Width="1.5" PointX="19.75" PointY="14.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_SSZDK" Width="1.5" PointX="19.75" PointY="17.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_UNIT" Width="1.5" PointX="21.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_WZJBK" Width="1.5" PointX="21.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_YBFLK" Width="1.5" PointX="21.75" PointY="6.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_YBKSK" Width="1.5" PointX="12.75" PointY="21.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_YFDMK" Width="1.5" PointX="14.75" PointY="21.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_YJKSK" Width="1.5" PointX="16.75" PointY="21.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_YLXMK" Width="1.5" PointX="21.75" PointY="18.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_YPCDMLK" Width="1.5" PointX="18.75" PointY="21.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_YPFLK" Width="1.5" PointX="20.75" PointY="21.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_YPJXK" Width="1.5" PointX="4.75" PointY="22.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_YPLCMLK" Width="1.5" PointX="6.75" PointY="22.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_YSKSBQDYK" Width="1.5" PointX="22.75" PointY="21.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_YSSSDJDYK" Width="1.5" PointX="23.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_YSSSDYK" Width="1.5" PointX="23.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_YSSSFLDYK" Width="1.5" PointX="23.75" PointY="6.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_ZCBMK" Width="1.5" PointX="23.75" PointY="9.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_ZCYSSSDJDYK" Width="1.5" PointX="23.75" PointY="12.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_ZDDMK" Width="1.5" PointX="23.75" PointY="15.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_ZDFLK" Width="1.5" PointX="0.75" PointY="24.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_ZYBRXXK" Width="1.5" PointX="8.75" PointY="24.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_ZYDMK" Width="1.5" PointX="10.75" PointY="24.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_ZYSFZXKSK" Width="1.5" PointX="24.75" PointY="21.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_ADDINS" Width="1.5" PointX="25.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_APPUPDATEDETAILLOG" Width="1.5" PointX="25.75" PointY="4.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_APPUPDATELOG" Width="1.5" PointX="25.75" PointY="8.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_BQDMK" Width="1.5" PointX="25.75" PointY="12.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_BUILDTAB" Width="1.5" PointX="25.75" PointY="16.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_BUILDTAB_DETAIL" Width="1.5" PointX="20.75" PointY="25.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_COMPUTER" Width="1.5" PointX="22.75" PointY="25.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_CONFIG" Width="1.5" PointX="24.75" PointY="25.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_CONFIG_EX" Width="1.5" PointX="2.75" PointY="26.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_DATAOBJECT" Width="1.5" PointX="4.75" PointY="26.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_DATAOBJECT_FIELD" Width="1.5" PointX="26.75" PointY="20.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_DEFAULT" Width="1.5" PointX="26.75" PointY="23.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_DQDMK" Width="1.5" PointX="27.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_FORMIMPOWER" Width="1.5" PointX="27.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_GWCJDYK" Width="1.5" PointX="27.75" PointY="7.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_GWJSDY" Width="1.5" PointX="27.75" PointY="10.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_GZGW" Width="1.5" PointX="10.75" PointY="27.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_HOSPITAILEVEL" Width="1.5" PointX="27.75" PointY="13.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_HOSPITAL" Width="1.5" PointX="26.75" PointY="27.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_JSDMK" Width="1.5" PointX="27.75" PointY="16.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_KSDMK" Width="1.5" PointX="12.75" PointY="28.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_NEWS" Width="1.5" PointX="14.75" PointY="28.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_OREP_MB" Width="1.5" PointX="28.75" PointY="19.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_OREP_NODE" Width="1.5" PointX="28.75" PointY="22.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_OREP_PARAHINT" Width="1.5" PointX="28.75" PointY="25.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_OREP_PARALX" Width="1.5" PointX="28.75" PointY="28.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_OREP_QX" Width="1.5" PointX="29.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_OREP_TEMP" Width="1.5" PointX="29.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_PK_COLUMN" Width="1.5" PointX="4.75" PointY="29.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_PRINT" Width="1.5" PointX="29.75" PointY="7.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_PYWBK" Width="1.5" PointX="29.75" PointY="10.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_REPORTPRINT" Width="1.5" PointX="29.75" PointY="13.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_ROLE_ATTRIB" Width="1.5" PointX="0.75" PointY="30.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_TESTDATATYPE" Width="1.5" PointX="30.75" PointY="17.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_UPDATELOG" Width="1.5" PointX="20.75" PointY="30.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_USER_ATTRIB" Width="1.5" PointX="22.75" PointY="30.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_XTDLDMK" Width="1.5" PointX="30.75" PointY="23.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_XTGWDYK" Width="1.5" PointX="30.75" PointY="26.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_ZGDMK" Width="1.5" PointX="30.75" PointY="29.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_ZGDMK_TEMP" Width="1.5" PointX="31.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_ZGGWDYK" Width="1.5" PointX="31.75" PointY="7.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_ZGKSBQDYK" Width="1.5" PointX="31.75" PointY="10.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_ZGQMK" Width="1.5" PointX="31.75" PointY="13.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.YG_SYXJBBLJBXX" Width="1.5" PointX="0.75" PointY="1.625" />
+        <EntityTypeShape EntityType="MYCISDBModel.YG_SYXJBBLXX" Width="1.5" PointX="3" PointY="6.375" />
+        <EntityTypeShape EntityType="MYCISDBModel.YG_SYXJBYB" Width="1.5" PointX="3" PointY="10.375" />
+        <EntityTypeShape EntityType="MYCISDBModel.PUB_DQDMK_BAK" Width="1.5" PointX="16.75" PointY="31.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_CONFIG_LOG" Width="1.5" PointX="2.75" PointY="32.75" />
+        <EntityTypeShape EntityType="MYCISDBModel.SYS_ZGDMK_bak" Width="1.5" PointX="4.75" PointY="32.75" />
+        <AssociationConnector Association="MYCISDBModel.FK_YG_SYXJBBLJBXX_YG_SYXJBBLJBXX" />
+        <AssociationConnector Association="MYCISDBModel.FK_YG_SYXJBBLXX_YG_SYXJBBLJBXX" />
+        <AssociationConnector Association="MYCISDBModel.FK_YG_SYXJBYB_YG_SYXJBBLJBXX" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,16 @@
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\bin\Debug\ConsoleAppWebApiHost.exe.config
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\bin\Debug\ConsoleAppWebApiHost.exe
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\bin\Debug\ConsoleAppWebApiHost.pdb
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\bin\Debug\Newtonsoft.Json.dll
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\bin\Debug\System.Web.Http.dll
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\bin\Debug\System.Web.Http.SelfHost.dll
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\bin\Debug\Newtonsoft.Json.xml
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\obj\Debug\ConsoleAppWebApiHost.exe
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\obj\Debug\ConsoleAppWebApiHost.pdb
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\bin\Debug\System.Web.Http.xml
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\bin\Debug\System.Web.Http.SelfHost.xml
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\bin\Debug\System.Net.Http.Formatting.dll
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\bin\Debug\System.Net.Http.Formatting.xml
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\云端TFS\WebAPI\WebAPIStudy\ConsoleAppWebApiHost\obj\Debug\ConsoleAppWebApiHost.csprojResolveAssemblyReference.cache
